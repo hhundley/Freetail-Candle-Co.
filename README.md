@@ -1,2 +1,2 @@
-# Malenia-Candle-Co.
+# Freetail-Candle-Co.
 An ecommerce platform for a candle/incense company
