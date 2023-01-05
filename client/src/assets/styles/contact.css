@@ -1,0 +1,12 @@
+#submitbtn {
+    background: white;
+    color:black;
+    border:none;
+    font-weight: bolder;
+    text-align: left;
+    padding:0%
+}
+
+.contact-text {
+    font-size: 4vw;
+}

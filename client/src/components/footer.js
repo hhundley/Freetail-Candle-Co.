@@ -1,21 +1,21 @@
 import React from 'react';
-import github from '../assets/github.svg';
+import spotify from '../assets/spotify.svg';
 import instagram from '../assets/instagram.svg';
-import linkedin from '../assets/linkedin.svg';
+import youtube from '../assets/youtube.svg';
 
 
 function Footer() {
     return(
         <footer className="animate__animated animate__fadeInUp">
         <div className="container d-flex justify-content-center py-5">
-            <div className="mx-2">
-            <a href="https://github.com/hhundley" target="_blank" rel="noopener noreferrer"><img src={github} id="github" alt="github" /></a>
+            <div className="mx-2" style = {{paddingRight:'20vw'}}>
+            <a href="https://www.instagram.com/hunter_hundley/" target="_blank" rel="noopener noreferrer"><img src={spotify} id="spotify" alt="spotify" /></a>
             </div>
             <div className="mx-2">
             <a href="https://www.instagram.com/hunter_hundley/" target="_blank" rel="noopener noreferrer"><img src={instagram} className="icon" alt="instagram" /></a>
             </div>
-            <div className="mx-2">
-            <a href="https://www.linkedin.com/in/hunter-hundley-ab9284182/" target="_blank" rel="noopener noreferrer"><img src={linkedin} id="linkedin" alt="linkedin" /></a>
+            <div className="mx-2" style = {{paddingLeft:'20vw'}}>
+            <a href="https://www.instagram.com/hunter_hundley/" target="_blank" rel="noopener noreferrer"><img src={youtube} id="youtube" alt="youtube" /></a>
             </div>
           
         </div>
