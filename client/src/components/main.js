@@ -1,10 +1,14 @@
 import React from 'react';
-import logo from '../../src/assets/Freetail Candle Co. bat black.png';
+import juniper from '../../src/assets/Juniper.png';
+import scarlet from '../../src/assets/Scarlet.png';
+import sandalwood from '../../src/assets/Sandalwood.png';
 
 function Main() {
     return(
-        <div className="text-center text-black p-2" id="copy">
-            <img src={logo} alt="Freetail Logo"></img>
+        <div className="text-center" id="copy">
+            <img style={{height:"300px", margin:"50px"}} src={juniper} alt="juniper product"></img>
+            <img style={{height:"300px",margin:"50px"}} src={scarlet} alt="scarlet product"></img>
+            <img style={{height:"300px",margin:"50px"}} src={sandalwood} alt="sandalwood product"></img>
         </div>
     );
 }
