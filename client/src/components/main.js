@@ -12,7 +12,7 @@ function Main() {
             </figure>
             <figure>
             <img style={{height:"300px",margin:"50px"}} src={scarlet} alt="scarlet product"></img>
-            <figcaption>Scarlet Incense Sticks<br></br>$5.00</figcaption>
+            <figcaption>Scarlet Incense Sticks<br></br>$6.00</figcaption>
             </figure>
             <figure>
             <img style={{height:"300px",margin:"50px"}} src={sandalwood} alt="sandalwood product"></img>

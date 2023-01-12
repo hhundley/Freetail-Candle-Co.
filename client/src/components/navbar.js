@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/esm/Navbar';
 
 function Navigation({pageState,setPageState}) {
     const handleHome = () => {
-        setPageState({...pageState,about:false,main:true,work:false,contact:false})
+        setPageState({...pageState,about:false,main:true,policies:false,contact:false})
     }
 
     const handleAbout = () => {
