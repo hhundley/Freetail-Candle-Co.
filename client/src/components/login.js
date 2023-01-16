@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
@@ -47,8 +46,7 @@ const Login = (props) => {
           <div>
             {data ? (
               <p>
-                Success! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
+                Success!
               </p>
             ) : (
               <form style={{display:'block'}}onSubmit={handleFormSubmit}>
@@ -77,9 +75,8 @@ const Login = (props) => {
                   style={{ marginLeft:'15px',marginBottom:'15px',cursor: 'pointer',backgroundColor:"transparent",color:'blue',fontFamily:'arial',padding:'5px',border:'none',fontSize:'14px'}}
                   type="submit"
                 >
-                  Submit
+                  Login
                 </button>
-                <p style={{textAlign:'left',marginLeft:'15px'}}>No account? No worries! <a style={{textDecoration:'none',color:'blue'}} href="/signup">Register now!</a></p>
               </form>
             )}
 

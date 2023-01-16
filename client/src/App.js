@@ -14,6 +14,7 @@ import About from "./components/about";
 import Policies from "./components/policies";
 import Contact from "./components/contact";
 import Login from "./components/login";
+import Signup from "./components/signup";
 import Footer from "./components/footer";
 
 // Construct our main GraphQL API endpoint
@@ -56,6 +57,7 @@ function App() {
       {pageState.main? <Main />: ''}
       {pageState.about? <About />: ''}
       {pageState.policies? <Policies />: ''}
+      {pageState.signup? <Signup />: ''}
       {pageState.contact? <Contact />: ''}
       {pageState.login? <Login />: ''}
       {/* {pageState.cart? <Cart />: ''} */}
