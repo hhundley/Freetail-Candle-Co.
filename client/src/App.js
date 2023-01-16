@@ -51,6 +51,7 @@ function App() {
    })
   return (
     <ApolloProvider client={client}>
+      <Router>
     <div>
       <Header />
       <Navigation pageState={pageState} setPageState={setPageState} />
@@ -63,6 +64,7 @@ function App() {
       {/* {pageState.cart? <Cart />: ''} */}
       <Footer />
     </div>
+    </Router>
     </ApolloProvider>
   );
 }
